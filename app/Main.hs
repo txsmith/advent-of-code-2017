@@ -1,9 +1,10 @@
 module Main where
 
-import Day1
+import Day5
 
 main :: IO ()
 main = do
   putStrLn "Day 1:"
-  putStrLn $ "  " ++ show answer
-  putStrLn $ "  " ++ show answer'
+  -- answer One
+  answer Two
+  -- putStrLn $ "  " ++ show answer'
