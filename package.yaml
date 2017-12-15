@@ -20,6 +20,8 @@ description:         Advent of Code 2017 (http://adventofcode.com/2017) solution
 dependencies:
 - base >= 4.7 && < 5
 - containers
+- vector
+- monad-loops
 
 library:
   source-dirs: src

@@ -1,4 +1,4 @@
--- This file has been generated from package.yaml by hpack version 0.17.0.
+-- This file has been generated from package.yaml by hpack version 0.17.1.
 --
 -- see: https://github.com/sol/hpack
 
@@ -27,11 +27,14 @@ library
   build-depends:
       base >= 4.7 && < 5
     , containers
+    , vector
+    , monad-loops
   exposed-modules:
       Day1
       Day2
       Day3
       Day4
+      Day5
   default-language: Haskell2010
 
 executable advent-exe
@@ -42,5 +45,7 @@ executable advent-exe
   build-depends:
       base >= 4.7 && < 5
     , containers
+    , vector
+    , monad-loops
     , advent
   default-language: Haskell2010
